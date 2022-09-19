@@ -1,0 +1,28 @@
+
+body {
+    font-family: 'Montserrat';
+    font-style: normal;
+    background-color: #CBCBCB;
+}
+
+.body-2 {
+    display: flex;
+    width: fit-content;
+    margin: auto;
+}
+
+/* Sidebar styles */
+aside {
+    width: 397px;
+    height: 1024px;
+
+    background: #212121;
+}
+
+/* Main styles */
+main {
+    width: 1043px;
+    height: 1024px;
+
+    background-color: #303030;
+}
