@@ -1,4 +1,3 @@
-
 body {
     font-family: 'Montserrat';
     font-style: normal;
@@ -32,9 +31,113 @@ aside {
     margin: 26px auto 0 auto;
 }
 
-.contacts {
-    margin: 30px auto 0 79px;
+.sidebar-block {
+    margin: 36px auto 0 79px;
 }
+
+.contacts-ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar-title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.contact {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.265em;
+
+    color: #FFFFFF;
+}
+
+.c-2 {
+    margin-top: 11px;
+}
+
+.skills-ul {
+    list-style-type: circle;
+    padding: 0;
+    margin: 0;
+}
+
+.skills-li {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    align-items: center;
+    letter-spacing: 0.265em;
+
+    margin-left: 20px;
+
+    color: #FFFFFF;
+}
+
+.live-work {
+    width: 178px;
+    height: 53px;
+    background-image: url(img/liveWork.svg);
+    text-align: center;
+
+    margin-top: 14px;
+    margin: 14px auto 0 auto;
+}
+
+.live-work-text {
+    display: block;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.265em;
+
+    color: #000000;
+
+    padding-top: 6px;
+}
+
+.social-links {
+    display: flex;
+    width: 269px;
+    margin: 5px auto auto auto;
+}
+
+.instagram {
+    width: 36.67px;
+    height: 36.67px;
+    margin-right: 19.33px;
+    background-image: url(img/icons/instagram.svg);
+}
+.instagram:hover {
+    width: 36.67px;
+    height: 36.67px;
+    margin-right: 19.33px;
+    background-image: url(img/iconsColor/instagramColor.svg);
+}
+
+.telegram {
+    margin-right: 26px;
+}
+
+.figma {
+    margin-right: 27.33px;
+}
+
+.email {
+    margin-right: 23px;
+}
+
 
 /* Main styles */
 main {
