@@ -2,6 +2,8 @@
 body {
     font-family: 'Montserrat';
     font-style: normal;
+    font-weight: 700;
+
     background-color: #CBCBCB;
     color: #FFFFFF;
 }
@@ -9,11 +11,13 @@ body {
 .body-2 {
     display: flex;
     width: fit-content;
+
     margin: auto;
 }
 
 a {
     text-decoration: none;
+
     color: #FFFFFF;
 }
 
@@ -29,22 +33,31 @@ button {
     color: yellow;
 }
 
-
 p {
     text-align: justify;
 }
 
 /* Sidebar Styles */
 aside {
-    width: 397px;
-    /* height: 1024px; */
-    /* color: #FFFFFF; */
+    min-width: 330px;
+    max-width: 397px;
+    min-height: 820px;
 
     background: #212121;
+    justify-content: center;
+}
+
+.aside-start {
+    height: 80%;
 }
 
 .sidebar-block {
-    margin: 36px auto 0 79px;
+    margin: 15px 10px 0 30px;
+}
+
+.sidebar-block h2 {
+    font-size: 20px;
+    line-height: 24px;
 }
 
 /* Profile */
@@ -55,32 +68,17 @@ aside {
 }
 
 /* Contacts */
-.contacts-ul {
+.contacts ul {
     list-style-type: none;
     padding: 0;
 }
 
-.sidebar-title {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 24px;
-}
+.contacts ul li {
+    display: flex;
 
-.contact {
-    font-family: 'Montserrat';
-    font-style: normal;
     font-weight: 400;
     font-size: 12px;
-    line-height: 15px;
-    /* identical to box height */
-
-    display: flex;
-    align-items: center;
     letter-spacing: 0.265em;
-
-    color: #FFFFFF;
 }
 
 .c-2 {
@@ -90,34 +88,32 @@ aside {
 /* Skills */
 .skills-ul {
     list-style-type: circle;
+
     padding: 0;
     margin: 0;
 }
 
-.skills-li {
+.skills-ul li {
     font-weight: 400;
     font-size: 12px;
     line-height: 15px;
-    align-items: center;
     letter-spacing: 0.265em;
 
     margin-left: 20px;
-
-    color: #FFFFFF;
 }
 
 /* Social and Portfolio */
 .live-work {
     width: 178px;
     height: 53px;
-    background-image: url(img/liveWork.svg);
-    text-align: center;
 
-    margin-top: 14px;
+    text-align: center;
     margin: 14px auto 0 auto;
+
+    background-image: url(img/liveWork.svg);
 }
 
-.live-work-text {
+.live-work button {
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
@@ -129,76 +125,96 @@ aside {
 }
 
 .social-links {
+
     display: flex;
     width: 269px;
+
     margin: 5px auto 31.5px auto;
 }
 
 .instagram {
     width: 36.67px;
     height: 36.67px;
+
     margin-right: 19.33px;
+
     background-image: url(img/icons/instagram.svg);
 }
 
 .instagram:hover {
     width: 36.67px;
     height: 36.67px;
+
     margin-right: 19.33px;
+
     background-image: url(img/iconsColor/instagramColor.svg);
 }
 
 .telegram {
-    margin-right: 26px;
     width: 40px;
     height: 40px;
+
+    margin-right: 26px;
+
     background-image: url(img/icons/telegram.svg);
 }
 
 .telegram:hover {
-    margin-right: 26px;
     width: 40px;
     height: 40px;
+
+    margin-right: 26px;
+
     background-image: url(img/iconsColor/telegramColor.svg);
 }
 
 .figma {
-    margin-right: 27.33px;
     width: 26.67px;
     height: 40px;
+
+    margin-right: 27.33px;
+
     background-image: url(img/icons/figma.svg);
 }
 
 .figma:hover {
-    margin-right: 27.33px;
     width: 26.67px;
     height: 40px;
+
+    margin-right: 27.33px;
+
     background-image: url(img/iconsColor/figmaColor.svg);
 }
 
 .email {
-    margin-right: 23px;
     width: 35px;
     height: 27.5px;
+
+    margin-right: 23px;
+
     background-image: url(img/icons/email.svg);
 }
 
 .email:hover {
-    margin-right: 23px;
     width: 35px;
     height: 27.5px;
+
+    margin-right: 23px;
+
     background-image: url(img/iconsColor/emailColor.svg);
 }
 
 .behance {
     width: 35px;
     height: 35px;
+
     background-image: url(img/icons/behance.svg);
 }
 
 .behance:hover {
     width: 35px;
     height: 35px;
+
     background-image: url(img/iconsColor/behance.Color.svg);
 }
 
@@ -212,45 +228,36 @@ dialog span {
     display: block;
 }
 
-.dialog-up {
-    width: 1440px;
-    height: 388px;
+.dialog-up,
+.dialog-down {
+    max-width: 1440px;
+    height: 314px;
 }
 
 .dialog-middle {
     display: flex;
 }
 
-.dialog-left {
-    width: 335px;
-    height: 247px;
-}
-
+.dialog-left,
 .dialog-right {
-    width: 335px;
+    max-width: 335px;
     height: 247px;
-}
-
-.dialog-down {
-    width: 1440px;
-    height: 240px;
 }
 
 .dialog-inside {
-    width: 771px;
-    height: 247px;
-    background-color: #FFFFFF;
-    margin-right: auto;
-    margin-left: auto;
-    border-radius: 18px;
     display: flex;
+
+    max-width: 771px;
+    height: 247px;
+
+    border-radius: 18px;
+
+    background-color: #FFFFFF;
 }
 
 .dialog-block {
-    width: 313px;
+    max-width: 313px;
     height: 207px;
-    left: 0px;
-    top: 0px;
 
     border: 1px solid #000000;
     border-radius: 30px;
@@ -271,13 +278,16 @@ dialog span {
 
 .dialog-button-store {
     display: block;
+
     width: 93px;
     height: 34px;
+
     text-align: center;
+    border-radius: 20px;
+
+    margin: 22px auto auto auto;
 
     background: #0C2D6C;
-    border-radius: 20px;
-    margin: 22px auto auto auto;
 }
 
 .mobile-app {
@@ -291,27 +301,29 @@ dialog span {
 
 .dialog-button-app {
     display: block;
+
     width: 93px;
     height: 34px;
 
-    background: #0C2D6C;
     border-radius: 20px;
+
     margin: 28px auto auto auto;
+
+    background: #0C2D6C;
 }
 
 .watch {
     font-weight: 400;
     font-size: 16px;
     letter-spacing: 0.265em;
-    color: #FFFFFF;
+
     padding-top: 7px;
 }
 
 
 /* Main styles */
 main {
-    width: 1043px;
-    /* height: 1024px; */
+    max-width: 1043px;
 
     background-color: #303030;
 }
@@ -323,6 +335,7 @@ main {
 .main-title {
     font-weight: 700;
     font-size: 20px;
+
     line-height: 24px;
     letter-spacing: 0.265em;
 }
@@ -332,9 +345,10 @@ main {
     margin-top: 63px;
 }
 
-.profession {
+.site-title span {
     font-weight: 400;
     font-size: 12px;
+
     line-height: 15px;
     letter-spacing: 0.265em;
 
@@ -344,6 +358,7 @@ main {
 h1 {
     font-weight: 700;
     font-size: 32px;
+
     letter-spacing: 0.265em;
 }
 
@@ -352,9 +367,10 @@ h1 {
     margin-top: 47px;
 }
 
-.about-paragraph {
-    width: 491px;
-    height: 111px;
+.about p {
+    max-width: 491px;
+    height: fit-content;
+
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
@@ -367,12 +383,12 @@ h1 {
 }
 
 .work-experience h3 {
-    margin-top: 7px;
-    margin-bottom: 0px;
     font-weight: 700;
     font-size: 16px;
     letter-spacing: 0.265em;
-    color: #FFFFFF;
+
+    margin-top: 7px;
+    margin-bottom: 0px;
 }
 
 .work-experience h4 {
@@ -388,17 +404,18 @@ h1 {
 .work-experience ul {
     padding: 0;
     margin-top: 9px;
+
     list-style-type: none;
 }
 
 .work-experience ul li {
+    max-width: 440px;
+
     font-weight: 400;
     font-size: 12px;
     letter-spacing: 0.265em;
-    width: 440px;
-    margin-bottom: 13px;
 
-    color: #FFFFFF;
+    margin-bottom: 13px;
 }
 
 .work-experience ul .last-li {
@@ -419,6 +436,4 @@ h1 {
     font-size: 12px;
     line-height: 15px;
     letter-spacing: 0.265em;
-
-    color: #FFFFFF;
 }
