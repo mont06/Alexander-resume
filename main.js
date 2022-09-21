@@ -22,3 +22,11 @@ document.querySelector('#exitRight').onclick = function () {
 document.querySelector('#exitBottom').onclick = function () {
     dialog.close()
 }
+
+document.querySelector('#watchOne').onclick = function () {
+    dialog.close()
+}
+
+document.querySelector('#watchTwo').onclick = function () {
+    dialog.close()
+}
