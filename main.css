@@ -25,9 +25,10 @@ button {
     outline: none;
 }
 
-span {
-    display: block;
+.yellow {
+    color: yellow;
 }
+
 
 p {
     text-align: justify;
@@ -207,6 +208,10 @@ dialog {
     border: 0px;
 }
 
+dialog span {
+    display: block;
+}
+
 .dialog-up {
     width: 1440px;
     height: 388px;
@@ -354,4 +359,66 @@ h1 {
     font-size: 14px;
     line-height: 17px;
     letter-spacing: 0.265em;
+}
+
+/* Work Experience */
+.work-experience {
+    margin-top: 22px;
+}
+
+.work-experience h3 {
+    margin-top: 7px;
+    margin-bottom: 0px;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.265em;
+    color: #FFFFFF;
+}
+
+.work-experience h4 {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.265em;
+
+    color: #A9A9A9;
+    margin: 0;
+}
+
+.work-experience ul {
+    padding: 0;
+    margin-top: 9px;
+    list-style-type: none;
+}
+
+.work-experience ul li {
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 0.265em;
+    width: 440px;
+    margin-bottom: 13px;
+
+    color: #FFFFFF;
+}
+
+.work-experience ul .last-li {
+    margin-bottom: 0;
+}
+
+/* Design Education */
+.design-education {
+    margin-top: 77px;
+}
+
+.design-education ul {
+    padding-left: 17px;
+}
+
+.design-education ul li {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.265em;
+
+    color: #FFFFFF;
 }
