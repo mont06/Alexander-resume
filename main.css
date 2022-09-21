@@ -1,7 +1,9 @@
+/* General Styles */
 body {
     font-family: 'Montserrat';
     font-style: normal;
     background-color: #CBCBCB;
+    color: #FFFFFF;
 }
 
 .body-2 {
@@ -27,25 +29,31 @@ span {
     display: block;
 }
 
-/* Sidebar styles */
+p {
+    text-align: justify;
+}
+
+/* Sidebar Styles */
 aside {
     width: 397px;
     /* height: 1024px; */
-    color: #FFFFFF;
+    /* color: #FFFFFF; */
 
     background: #212121;
-}
-
-.profile {
-    display: block;
-
-    margin: 26px auto 0 auto;
 }
 
 .sidebar-block {
     margin: 36px auto 0 79px;
 }
 
+/* Profile */
+.profile {
+    display: block;
+
+    margin: 26px auto 0 auto;
+}
+
+/* Contacts */
 .contacts-ul {
     list-style-type: none;
     padding: 0;
@@ -78,6 +86,7 @@ aside {
     margin-top: 11px;
 }
 
+/* Skills */
 .skills-ul {
     list-style-type: circle;
     padding: 0;
@@ -96,6 +105,7 @@ aside {
     color: #FFFFFF;
 }
 
+/* Social and Portfolio */
 .live-work {
     width: 178px;
     height: 53px;
@@ -120,7 +130,7 @@ aside {
 .social-links {
     display: flex;
     width: 269px;
-    margin: 5px auto auto auto;
+    margin: 5px auto 31.5px auto;
 }
 
 .instagram {
@@ -191,6 +201,7 @@ aside {
     background-image: url(img/iconsColor/behance.Color.svg);
 }
 
+/* Dialog */
 dialog {
     background: none;
     border: 0px;
@@ -264,7 +275,6 @@ dialog {
     margin: 22px auto auto auto;
 }
 
-
 .mobile-app {
     margin-top: 25px;
     text-align: center;
@@ -299,4 +309,49 @@ main {
     /* height: 1024px; */
 
     background-color: #303030;
+}
+
+.main-block {
+    margin-left: 71px;
+}
+
+.main-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.265em;
+}
+
+/* Title */
+.site-title {
+    margin-top: 63px;
+}
+
+.profession {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.265em;
+
+    color: #A9A9A9;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 32px;
+    letter-spacing: 0.265em;
+}
+
+/* About */
+.about {
+    margin-top: 47px;
+}
+
+.about-paragraph {
+    width: 491px;
+    height: 111px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.265em;
 }
